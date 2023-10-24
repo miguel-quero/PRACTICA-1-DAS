@@ -1,6 +1,7 @@
 # Seleccion-de-Estilo
 
-* Status: proposed
+* Status: accepted
+* Deciders: Miguel, Sergio
 * Date: 2023-10-23
 
 ## Context and Problem Statement
@@ -29,7 +30,6 @@ Chosen option: "0001-1-Arquitectura dirigida por eventos", because permite una i
 * Los eventos son faciles de enviar.
 * La empresa obtiene un sistema flexible que se adapta a los cambios y toma decisiones rápidamente.
 * Conocer la situación de inmediato.
-* 
 
 ### Negative Consequences
 
