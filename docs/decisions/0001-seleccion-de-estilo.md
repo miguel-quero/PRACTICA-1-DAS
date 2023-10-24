@@ -27,6 +27,9 @@ Chosen option: "0001-1-Arquitectura dirigida por eventos", because permite una i
 
 * Pueden realizarse los demas requisitos
 * Los eventos son faciles de enviar.
+* La empresa obtiene un sistema flexible que se adapta a los cambios y toma decisiones rápidamente.
+* Conocer la situación de inmediato.
+* 
 
 ### Negative Consequences
 
@@ -62,3 +65,7 @@ El estilo modelo vista controlador esta diseñado para sistemas interactivos don
 * Good, because Promueve la interaccion en la aplicación
 * Bad, because La aplicacion solo tendrá una interfaz
 * Bad, because No hay razon para mostrar de diferentes maneras la misma informacion.
+
+## Links
+
+* https://www.redhat.com/es/topics/integration/what-is-event-driven-architecture#ventajas
