@@ -1,4 +1,4 @@
-# Seleccion-patron-Algortimo
+# Seleccion-Patron-Del-Algoritmo-Optimizacion
 
 * Status: proposed
 * Deciders: Sergio, Miguel
