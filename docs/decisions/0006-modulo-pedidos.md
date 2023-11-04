@@ -1,17 +1,17 @@
 # Modulo-pedidos
 
-* Status: proposed
+* Status: accepted
 * Deciders: Sergio, Miguel
 * Date: 2023-10-31
 
 ## Context and Problem Statement
 
-El modulo pedidos resulta ser sencillo en cuanto a sus requerimientos, tan solo se tienen que poder realizar pedidos y dar un numero de intentos necesarios.
+El módulo pedidos resulta ser sencillo en cuanto a sus requerimientos, tan sólo se tienen que poder realizar pedidos y dar un número de intentos necesarios. Para ello, se creará una clase GestorCompra, clase Pedido y clase Producto. La clase GestorCompra contiene las funcionalidades necesarias para realizar un pedido y comprobar el número de intentos. Esta clase recibe las solicitudes procedentes del módulo EventChannels y se comunica con la base de datos de los pedidos.
 
 ## Decision Drivers
 
 * RF-05 Permitir realizar pedidos
-* RF-06 Numero de intentos para realizar pedidos
+* RF-06 Establecer intentos para realizar pedidos
 
 ## Considered Options
 
