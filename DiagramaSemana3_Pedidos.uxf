@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>100</x>
+      <y>70</y>
+      <w>1060</w>
+      <h>570</h>
+    </coordinates>
+    <panel_attributes>Pedidos</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>250</x>
+      <y>200</y>
+      <w>180</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>GestorCompra
+--
+-idPedido
+-numero
+--
++realizarCompra()
++comprobarNumIntentos()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>580</x>
+      <y>200</y>
+      <w>140</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Pedido
+--
+-idPedido
+-numIntentos
+-idCliente
+--
++limitarPedidos()
++realizarPedido()
++consultarPedido()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>870</x>
+      <y>200</y>
+      <w>180</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>¿Producto?
+--
+-idProducto
+-cantidadProducto
+--
++comprobarProducto()
++añadirProducto()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>280</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>280</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+</diagram>
