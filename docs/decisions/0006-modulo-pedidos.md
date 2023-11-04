@@ -19,7 +19,7 @@ El modulo pedidos resulta ser sencillo en cuanto a sus requerimientos, tan solo 
 
 ## Decision Outcome
 
-Chosen option: "0006-1-Sin patron de comportamiento", because Es una respuesta sencilla para el problema que se plantea. Este es un modulo simple que tiene poco peso en el sistema, por lo que no se encuentra un patrón que no complique demasiado su uso.
+Chosen option: "0006-1-Sin patron de comportamiento", because Es una respuesta sencilla para el problema que se plantea. Este es un módulo simple que tiene poco peso en el sistema, por lo que no se encuentra un patrón que no complique demasiado su uso.
 
 ## Pros and Cons of the Options
 
