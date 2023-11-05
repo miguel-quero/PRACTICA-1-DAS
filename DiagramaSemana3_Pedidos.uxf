@@ -26,7 +26,10 @@
 -numero
 --
 +realizarCompra()
-+comprobarNumIntentos()</panel_attributes>
++comprobarNumIntentos()
++limitarPedidos()
++realizarPedido()
++consultarPedido()</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -34,7 +37,7 @@
     <coordinates>
       <x>580</x>
       <y>200</y>
-      <w>140</w>
+      <w>160</w>
       <h>230</h>
     </coordinates>
     <panel_attributes>Pedido
@@ -42,10 +45,13 @@
 -idPedido
 -numIntentos
 -idCliente
+-listaProductos
 --
-+limitarPedidos()
-+realizarPedido()
-+consultarPedido()
++añadirProducto()
++comprobarProducto()
++borrarProducto()
+
+
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -57,37 +63,47 @@
       <w>180</w>
       <h>230</h>
     </coordinates>
-    <panel_attributes>¿Producto?
+    <panel_attributes>Producto
 --
 -idProducto
 -cantidadProducto
 --
-+comprobarProducto()
-+añadirProducto()</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>420</x>
-      <y>280</y>
+      <y>300</y>
       <w>180</w>
-      <h>40</h>
+      <h>30</h>
     </coordinates>
-    <panel_attributes>lt=-
-</panel_attributes>
-    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>280</y>
-      <w>180</w>
-      <h>40</h>
+      <x>730</x>
+      <y>300</y>
+      <w>160</w>
+      <h>30</h>
     </coordinates>
-    <panel_attributes>lt=-
-</panel_attributes>
-    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>720</x>
+      <y>110</y>
+      <w>390</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Asumimos que todas las clases tienen getters
+y setters y todos los métodos constructores y destructores
+bg=yellow</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
