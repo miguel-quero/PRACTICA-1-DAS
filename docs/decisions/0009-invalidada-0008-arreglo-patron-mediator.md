@@ -6,7 +6,7 @@
 
 ## Context and Problem Statement
 
-Se halló un fallo en la creacion del patron Mediator que habiamos implementado anteriormente. Para ello, se tendra que solucionar por medio de cambios en el diagrama que hemos creado.
+Se halló un fallo en la creación del patron Mediator que habíamos implementado anteriormente. Para ello, se tendrá que solucionar por medio de cambios en el diagrama que hemos creado.
 
 ## Decision Drivers
 
