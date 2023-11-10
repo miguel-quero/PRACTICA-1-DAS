@@ -1,6 +1,7 @@
 # Módulo-Clientes
 
-* Status: proposed
+* Status: accepted
+* Deciders: Sergio, Miguel
 * Date: 2023-11-10
 
 ## Context and Problem Statement
