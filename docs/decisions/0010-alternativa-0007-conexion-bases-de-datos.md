@@ -16,11 +16,11 @@ Nuestro sistema software debera poder acceder a dos bases de datos, una donde se
 
 ## Considered Options
 
-* 0010-1 Patrón Adapter
+* 0010-1 Uso de un módulo driver
 
 ## Decision Outcome
 
-Chosen option: "0010-1 Patrón Adapter", because la implementación de esta decisión garantiza un diseño eficiente y desacoplado para la conexión a las bases de datos SQL con los microservicios.
+Chosen option: "0010-1 Uso de un módulo driver", because la implementación de esta decisión garantiza un diseño eficiente y desacoplado para la conexión a las bases de datos SQL con los microservicios.
 
 ### Positive Consequences
 
@@ -35,13 +35,15 @@ Chosen option: "0010-1 Patrón Adapter", because la implementación de esta deci
 
 ## Pros and Cons of the Options
 
-### 0010-1 Patrón Adapter
+### 0010-1 Uso de un módulo driver
 
-El patrón de Adapter es útil en situaciones donde se necesita interactuar con sistemas o componentes que tienen interfaces incompatibles.
+El módulo driver permite la conexion segura durante el acceso a la base de datos debido al puente que se realiza en el driver. La conexión a este módulo se hará a través del Gestor determinado de cada módulo de servicios, de esta manera, se consiguen realizar consultas a través de los servicios de manera eficaz.
 
-* Good, because Podemos ocultar los detalles de la implementación de la base de datos a los microservicios, lo que permite cambios futuros en la tecnología de la base de datos sin afectar a los microservicios.
 * Good, because La conexión de las bases de datos SQL existentes y los microservicios se puede realizar de manera eficiente y controlada.
-* Good, because Cada microservicio que necesita acceder a la base de datos utiliza un adaptador concreto para interactuar con la base de datos.
+* Good, because //Cada microservicio que necesita acceder a la base de datos utiliza un adaptador concreto para interactuar con la base de datos.
+* Good, because Al utilizar un driver, se puede implementar una capa de seguridad adicional para proteger la base de datos y prevenir posibles vulnerabilidades.
+* Good, because Se puede utilizar un driver que este optimizado para SQL.
+* Bad, because Algunos drivers pueden no ser igualmente compatibles con todas las plataformas, lo que podría limitar la portabilidad del software en entornos específicos.
 
 ## Links
 
