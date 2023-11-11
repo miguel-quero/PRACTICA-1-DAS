@@ -7,7 +7,7 @@
       <x>63</x>
       <y>140</y>
       <w>252</w>
-      <h>203</h>
+      <h>322</h>
     </coordinates>
     <panel_attributes>Event Producers</panel_attributes>
     <additional_attributes/>
@@ -272,8 +272,8 @@ API GATEWAY</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>854</x>
-      <y>161</y>
+      <x>1085</x>
+      <y>217</y>
       <w>70</w>
       <h>28</h>
     </coordinates>
@@ -449,5 +449,35 @@ Pago</panel_attributes>
 y setters y todos los métodos constructores y destructores
 bg=yellow</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>315</y>
+      <w>105</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>Sensor
+--
+-idSensor
+-valor
+-estado
+--
++activar()
++enviarNotificacion()
++desactivar()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1113</x>
+      <y>238</y>
+      <w>21</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
