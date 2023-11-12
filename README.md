@@ -14,6 +14,7 @@ https://docs.google.com/document/d/1ClXBehRIjoI9hNTc-asUmhV7Fvv3aU0lUEe3H9OAd2M/
 #### Diagrama con un estilo dirigido por eventos actualizado
 ![image](https://github.com/miguel-quero/PRACTICA-1-DAS/assets/117729479/a5d0b9f1-7c48-40fa-b709-5347365d163a)
 #### Conexión a la base de datos
+Para indicar las bases de datos no hemos encontrado la forma adecuada para representarlo visualmente así que hemos escogido para mostrarlo mediante una elipse discontinua
 ![image](https://github.com/miguel-quero/PRACTICA-1-DAS/assets/117729479/51c5db52-c61d-4695-982e-ff6b0bb87eaf)
 #### Módulo Cliente
 ![image](https://github.com/miguel-quero/PRACTICA-1-DAS/assets/117729479/b7607abc-d586-4448-ad12-0daa949955c0)
