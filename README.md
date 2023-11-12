@@ -12,15 +12,17 @@ https://docs.google.com/document/d/1ClXBehRIjoI9hNTc-asUmhV7Fvv3aU0lUEe3H9OAd2M/
 ![image](https://github.com/miguel-quero/PRACTICA-1-DAS/assets/117729479/49bae004-83df-47f3-b7cf-35fd741372e3)
 ### Arquitectura con clases y paquetes UML Semana 4
 #### Diagrama con un estilo dirigido por eventos actualizado
-![image](https://github.com/miguel-quero/PRACTICA-1-DAS/assets/117729479/898163be-7edb-4271-9bdc-3ef954549e5f)
+![image](https://github.com/miguel-quero/PRACTICA-1-DAS/assets/117729479/a5d0b9f1-7c48-40fa-b709-5347365d163a)
 #### Conexión a la base de datos
-![image](https://github.com/miguel-quero/PRACTICA-1-DAS/assets/117729479/9e1e8b6a-285d-44c9-bc46-7fa251beb550)
+![image](https://github.com/miguel-quero/PRACTICA-1-DAS/assets/117729479/51c5db52-c61d-4695-982e-ff6b0bb87eaf)
 #### Módulo Cliente
-![image](https://github.com/miguel-quero/PRACTICA-1-DAS/assets/117729479/cda15220-942c-4722-a2c4-1299f98132ee)
+![image](https://github.com/miguel-quero/PRACTICA-1-DAS/assets/117729479/b7607abc-d586-4448-ad12-0daa949955c0)
 #### Módulo Estadísticas
-![image](https://github.com/miguel-quero/PRACTICA-1-DAS/assets/117729479/95fe88e3-bfab-4388-aa88-37aeab3e05ef)
-#### Módulo Incidencias
-![image](https://github.com/miguel-quero/PRACTICA-1-DAS/assets/117729479/f73458d3-ee73-4844-82f2-1944af99b9b1)
+![image](https://github.com/miguel-quero/PRACTICA-1-DAS/assets/117729479/38eb36cf-bd8f-4c7b-93bf-d49b1e15c2e9)
+
+
+
+
 
 
 
